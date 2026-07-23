@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Bab;
+    src: url('Fonts/Babylonica-Regular.ttf');
+}
+
+body{
+    margin: 0;
+}
+
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #8C877D;
+padding: 5px;
+
+font-family: Bab;
+font-weight: normal;
+}
+
+.AeraHeading{
+    font-weight: inherit;
+    
+}
+
+.Aera{
+font-size: 110px;
+}
+
+.Interiors{
+font-size: 32px;
+margin-left: 180px;
+display: block;
+margin-top: -30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    gap: 70px;
+    font-size: 60px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+nav a.active {
+    border-bottom: 3px solid #000000;
+    
+}
