@@ -52,3 +52,93 @@ nav a.active {
     border-bottom: 3px solid #000000;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    background-color: #8C877D;
+    min-height: 250px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px ;
+}
+
+.AeraHeadingFooter{
+    font-weight: inherit;
+    font-family: Bab;
+    
+}
+.AeraFooter{
+font-size: 110px;
+}
+
+.InteriorsFooter{
+font-size: 32px;
+margin-left: 180px;
+display: block;
+margin-top: -30px;
+}
+
+.bab{
+    font-family: Bab;
+    font-weight: normal;
+}
+
+.AddressHeading{
+    font-size: 60px;
+    margin-bottom: 20px;
+    
+}
+
+.Address{
+     border-left: 3.5px solid black;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Address p{
+    margin-left: 200px;
+    font-size: 16px;
+    font-family: "Times New Roman", serif;
+    color: #1E1E1E;
+   
+}
+
+
+
+.HoursHeading{
+    font-size: 60px;
+    margin-bottom: 20px;
+    
+}
+
+.HoursSchedule p{
+    font-size: 16px;
+    font-family: "Times New Roman", serif;
+    justify-content: space-between;
+    gap: 80px;
+    display: flex;
+    color: #1E1E1E;
+}
+
+.HoursFooter{
+    border-left: 3.5px solid black;
+    padding-left: 20px;
+    
+}
