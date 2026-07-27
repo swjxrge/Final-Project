@@ -160,8 +160,9 @@ margin-top: -30px;
     
     transform: translateX(-50%);
     color: white;
-    font-family: "Times New Roman", serif;
+    font-family: cormorant garamond, serif;
     font-size: 60px;
+    font-weight: normal;
 }
 
 .hero h2{
@@ -170,8 +171,9 @@ margin-top: -30px;
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    font-family: "Times New Roman", serif;
+    font-family: cormorant garamond, serif;
     font-size: 40px;
+    font-weight: normal;
 }
 
 .watermark{
@@ -182,3 +184,72 @@ margin-top: -30px;
     width: 200px;
     z-index: 2;
 }
+
+.about{
+   margin-top: 0px;
+    background-image:url("Images/bed.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 1500px;
+    position: relative;
+}
+
+.about h2{
+    margin-top: 0;
+    position: absolute;
+    top: 450px;
+    left: 70%;
+    
+    transform: translateX(-50%);
+    color: white;
+    font-family: cormorant garamond, serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.about h3{
+    position: absolute;
+    top: 1000px;
+    left: 30%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: cormorant garamond, serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+
+.watermark2{
+    position: absolute;
+    bottom: -40px;
+    left: -15px;
+    opacity: 0.5;
+    width: 200px;
+    
+}
+
+.aboutButton{
+    position: absolute;
+    top: 1300px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: rgba(140, 71, 46, 0.8);
+    color: black;
+    font-family: cormorant garamond, serif;
+    font-size: 20px;
+
+    padding: 15px 30px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+
+    text-decoration: none;
+}
+
+.aboutButton a {
+    color: black;
+    text-decoration: none;
+}
+
+
