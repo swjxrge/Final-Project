@@ -254,3 +254,101 @@ margin-top: -30px;
 }
 
 
+.aboutSection{
+    background-image:url("Images/A.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    height: 1200px;
+}
+
+.aboutSection h2{
+    margin-top: 0;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    
+    transform: translateX(-50%);
+    color: white;
+    font-family: cormorant garamond, serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.txt1{
+    margin-top: 0;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+
+    transform: translateX(-50%);
+    color: white;
+    font-family: cormorant garamond, serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.txt2{
+    margin-top: 0;
+    position: absolute;
+    top: 500px;
+    left: 50%;
+
+    transform: translateX(-50%);
+    color: white;
+    font-family: cormorant garamond, serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.aboutSection h3{
+    margin-top: 0;
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    
+    transform: translateX(-50%);
+    color: white;
+    font-family: cormorant garamond, serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.txt3{
+    margin-top: 0;
+    position: absolute;
+    top: 800px;
+    left: 50%;
+
+    transform: translateX(-50%);
+    color: white;
+    font-family: cormorant garamond, serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.contactButton{
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: rgba(140, 71, 46, 0.8);
+    color: black;
+    font-family: cormorant garamond, serif;
+    font-size: 20px;
+
+    padding: 15px 30px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.contactButton a {
+    color: black;
+    text-decoration: none;
+}
